@@ -4,8 +4,8 @@ require_once "vendor/autoload.php";
 
 use Wead\DigitalCep\Search;
 
-$busca = new Search;
+$search = new Search;
 
-$resultado = $busca->getAdressFromZipcode(13218040);
+$result = $search->getAdressFromZipcode(13219462);
 
-print_r($resultado);
+print_r($result);
